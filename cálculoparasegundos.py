@@ -1,0 +1,6 @@
+dia = int(input(' inserir data: '))
+hora = int(input(' inserir hora: '))
+minuto = int(input(' inserir minutos: '))
+segundos = int(input(' inserir segundos: '))
+total = (dia*24*60*60+hora*60*60+minuto*60+segundos)
+print (f'total de segundos será: {total} segundos ')
